@@ -12,7 +12,7 @@ public class Multiplication {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("enter first number");
 		 n1 = sc.nextInt();
-		 System.out.println("enter first number");
+		 System.out.println("enter second number");
 		 n2 = sc.nextInt();
 		 for(int i=0;i<n2;i++)
 		 {
