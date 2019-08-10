@@ -1,0 +1,47 @@
+
+package agevalidation;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author soujanya
+ */
+class Age   
+{
+  void display()
+  {
+      Scanner sc =new Scanner(System.in);
+      System.out.println("enter the age of candidate");
+      int a = sc.nextInt();
+      if(a<=21)
+      {
+          System.out.println("candidate is not allow below 21years");
+      }
+      else if(a>21 && a<=50)
+      {
+          System.out.println("candidate is allowed");
+      }
+      else if(a>50)
+      {
+          System.out.println("candidate is not allow above 50years");
+      }
+      else 
+      {
+          System.out.println("enter numeric values");
+      }
+      
+  }
+}
+public class AgeValidation {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Age ag = new Age ();
+        ag.display();
+    }
+    
+}
